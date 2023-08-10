@@ -8,20 +8,11 @@ En la primera clase debíamos configurar nuestro entorno de desarrollo y ejecuta
 
 En mi caso Rust ya estaba instalado en mi ordenador, por lo que dejo acá <a href="https://github.com/Juminstock/ink_toolkit">una referencia</a> en caso de que quieras realizar el proceso desde cero.
 
-Por mi parte seguí los pasos preventivamente para no tener errores posteriores, y al estar todo instalado simplemente ejecuté
+Por mi parte seguí los pasos preventivamente para no tener errores posteriores, y al estar todo instalado simplemente ejecuté <code>cargo install cargo-contract --force --locked</code>.
 
-<div align="center">
-    <code>cargo install cargo-contract --force --locked</code>
-</div>
+Tras lo cual al no obtener errores, cree mi primer contrato ejecutando <code>cargo contract new flipper</code>.
 
-Tras lo cual al no obtener errores, cree mi primer contrato con
+Por último ejecuté <code>rustup default stable</code>, ya que el compilador señalaba tres errores que se solucionaron inmediatamente.
 
-<div align="center">
-    <code>cargo contract new flipper</code>
-</div>
 
-Por último ejecuté el siguiente comando, ya que el compilador señalaba tres errores que se solucionaron inmediatamente.
 
-<div align="center">
-    <code>rustup default stable</code>
-</div>
